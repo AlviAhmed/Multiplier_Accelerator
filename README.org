@@ -1,0 +1,46 @@
+#+LaTeX_CLASS: mycustom 
+
+#+TITLE: The Multiplier - Lab2a
+#+AUTHOR: Alvi Ahmed
+
+* Objective 
+  The objective of this lab was to design a System-C based muliplier accelerator for a SoC design.
+
+* Figures  and Tables 
+  
+** Main 4x4 Multiplier Functionality
+
+ #+CAPTION: The 4x4 implementation of the multipier.
+ #+ATTR_LATEX: :placement [H] :width \linewidth 
+   [[file:multiplier44_img.png]] 
+
+In this lab the objective is to implement the 8x8 version of this.
+
+** Test Cases and Results  (8x8 Multiplier Implementation)
+
+ #+CAPTION: Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
+| Signals         | Decimal Values (Hexadecimal Values) |            |           |              |
+|-----------------+-------------------------------------+------------+-----------+--------------|
+| A_input         | 3 (03)                              | 30 (1E)    | 5 (05)    | 100 (64)     |
+|-----------------+-------------------------------------+------------+-----------+--------------|
+| B_input         | 2 (02)                              | 20 (14)    | 5 (05)    | 200 (C8)     |
+|-----------------+-------------------------------------+------------+-----------+--------------|
+| Complete Output | 6 (0006)                            | 600 (0258) | 25 (0019) | 20000 (4E20) |
+|-----------------+-------------------------------------+------------+-----------+--------------|
+
+The following test cases were chosen to test both 4-bit and 8-bit numbers and to see whether or not the results co-orrelate  
+
+As can be seen from the images below the test cases worked out as
+planned and the results correlate with the predicted results shown in
+the table above. 
+
+
+ #+CAPTION: Screen of resulting waves on GTKWave
+ #+ATTR_LATEX: :placement [H] :width \linewidth 
+[[file:working.png]]
+  
+ #+CAPTION: Images of waves on GTKWave
+ #+ATTR_LATEX: :placement [H] :width \linewidth 
+[[file:working_2.png]]
+
+
