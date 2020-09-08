@@ -48,3 +48,5 @@ the table above.
 [[file:working_2.png]]
 
 
+* References 
+	- https://www.ee.ryerson.ca/~courses/coe838/labs/lab2a.pdf
