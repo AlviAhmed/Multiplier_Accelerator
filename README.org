@@ -3,6 +3,10 @@
 #+TITLE: Multiplier Accelerator
 #+AUTHOR: Alvi Ahmed
 
+*Status:* Completed 
+*Type:* COE838 Lab
+
+
 * Objective 
   The objective of this lab was to design a System-C based muliplier accelerator for a SoC design.
 
