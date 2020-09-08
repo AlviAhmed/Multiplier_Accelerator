@@ -1,6 +1,6 @@
 #+LaTeX_CLASS: mycustom 
 
-#+TITLE: The Multiplier - Lab2a
+#+TITLE: Multiplier Accelerator
 #+AUTHOR: Alvi Ahmed
 
 * Objective 
