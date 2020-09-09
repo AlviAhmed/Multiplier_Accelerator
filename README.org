@@ -14,15 +14,13 @@
   
 ** Main 4x4 Multiplier Functionality
 
- #+CAPTION: The 4x4 implementation of the multipier.
- #+ATTR_LATEX: :placement [H] :width \linewidth 
-   [[file:multiplier44_img.png]] 
+[[file:multiplier44_img.png]] 
+The 4x4 implementation of the multipier.
 
 In this lab the objective is to implement the 8x8 version of this.
 
 ** Test Cases and Results  (8x8 Multiplier Implementation)
 
- #+CAPTION: Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
 | Signals         | Decimal Values (Hexadecimal Values) |            |           |              |
 |-----------------+-------------------------------------+------------+-----------+--------------|
 | A_input         | 3 (03)                              | 30 (1E)    | 5 (05)    | 100 (64)     |
@@ -31,6 +29,7 @@ In this lab the objective is to implement the 8x8 version of this.
 |-----------------+-------------------------------------+------------+-----------+--------------|
 | Complete Output | 6 (0006)                            | 600 (0258) | 25 (0019) | 20000 (4E20) |
 |-----------------+-------------------------------------+------------+-----------+--------------|
+Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
 
 The following test cases were chosen to test both 4-bit and 8-bit numbers and to see whether or not the results co-orrelate  
 
@@ -39,13 +38,11 @@ planned and the results correlate with the predicted results shown in
 the table above. 
 
 
- #+CAPTION: Screen of resulting waves on GTKWave
- #+ATTR_LATEX: :placement [H] :width \linewidth 
 [[file:working.png]]
+Screen of resulting waves on GTKWave
   
- #+CAPTION: Images of waves on GTKWave
- #+ATTR_LATEX: :placement [H] :width \linewidth 
 [[file:working_2.png]]
+Images of waves on GTKWave
 
 
 * References 
