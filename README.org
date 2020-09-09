@@ -45,5 +45,3 @@ Screen of resulting waves on GTKWave
 Images of waves on GTKWave
 
 
-* References 
-	- https://www.ee.ryerson.ca/~courses/coe838/labs/lab2a.pdf
