@@ -37,7 +37,8 @@
    Due to the carry out bit on the left most block on the last row being connected to nothing, this
    multiplier is type unsigned.
 
-   [[file:multiplier44_img.png]] 
+   [[file:multiplier44_img.png]]  
+
    The 4x4 implementation of the multipier.
 
    Below the CSA and CPA blocks are represented in their logic
@@ -46,17 +47,18 @@
    C++ and SystemC, although instead of 4x4 it is for an 8x8 multiplier
    unit.
 
-   [[file:csa_block.png]] 
+   [[file:csa_block.png]]  
+
    Image of logic diagram for CSA block.
 
-   [[file:cpa_block.png]] 
+   [[file:cpa_block.png]]  
+
    Image of logic diagram for CPA block.
 
 
 ** Test Cases and Results  (8x8 Multiplier Implementation)
 
    [[file:./table_better.png]]
-
 
    Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
 
@@ -68,10 +70,12 @@
    the table above. 
 
 
-   [[file:working.png]]
+   [[file:working.png]] 
+
    Screen of resulting waves on GTKWave
   
-   [[file:working_2.png]]
+   [[file:working_2.png]] 
+
    Images of waves on GTKWave
 
 
