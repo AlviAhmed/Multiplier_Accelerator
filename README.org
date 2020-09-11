@@ -12,31 +12,66 @@
 
 * Figures  and Tables 
   
+** Description 
+   In this lab the objective is to implement the 8x8 version of the
+   4x4 Multiplier
+
 ** Main 4x4 Multiplier Functionality
 
-[[file:multiplier44_img.png]] 
-The 4x4 implementation of the multipier.
+   Below is a figure for a 4x4 array multiplier unit. This unit takes
+   in 4-bit inputs A and B and produces an 8-bit number P.
 
-In this lab the objective is to implement the 8x8 version of this.
+   In the figure these various inputs are represented as A0:A3 and B0:B3 for
+   inputs A and B and the output is represented as P0:P7.
+
+   There are 2 main types of blocks that are used to make up the multiplier,
+   one is the Carry Save Adder (CSA) and the other is the Carry
+   Propagate Adder (CPA).
+
+   CSA being the square blocks and CPA
+   being the rounded blocks in the last row.
+   The duty of the CSA is to produce the least significant bits of the
+   product P (P0:P3), whereas the CPA is reponsible for the most
+   significant bits (P4:P7).
+
+   Due to the carry out bit on the left most block on the last row being connected to nothing, this
+   multiplier is type unsigned.
+
+   [[file:multiplier44_img.png]] 
+   The 4x4 implementation of the multipier.
+
+   Below the CSA and CPA blocks are represented in their logic
+   forms. These logical diagram representations are then represented in
+   code and the "connnections" for the multiplier are then made in the
+   C++ and SystemC, although instead of 4x4 it is for an 8x8 multiplier
+   unit.
+
+   [[file:csa_block.png]] 
+   Image of logic diagram for CSA block.
+
+   [[file:cpa_block.png]] 
+   Image of logic diagram for CPA block.
+
 
 ** Test Cases and Results  (8x8 Multiplier Implementation)
 
-[[file:./table_results.png]]
+   [[file:./table_better.png]]
 
 
-Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
+   Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
 
-The following test cases were chosen to test both 4-bit and 8-bit numbers and to see whether or not the results co-orrelate  
+   The following test cases were chosen to test both 4-bit and 8-bit
+   numbers and to see whether or not the lab results will correlate with these predicted results
 
-As can be seen from the images below the test cases worked out as
-planned and the results correlate with the predicted results shown in
-the table above. 
+   As can be seen from the images below the test cases worked out as
+   planned and the results correlate with the predicted results shown in
+   the table above. 
 
 
-[[file:working.png]]
-Screen of resulting waves on GTKWave
+   [[file:working.png]]
+   Screen of resulting waves on GTKWave
   
-[[file:working_2.png]]
-Images of waves on GTKWave
+   [[file:working_2.png]]
+   Images of waves on GTKWave
 
 
