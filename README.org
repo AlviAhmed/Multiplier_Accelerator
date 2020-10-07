@@ -8,7 +8,7 @@
 
 
 * Objective 
-  The objective of this lab was to design a System-C based muliplier accelerator for a SoC design.
+  The objective of this lab was to design a System-C based multiplier accelerator for a SoC design.
 
 * Figures  and Tables 
   
@@ -31,7 +31,7 @@
    CSA being the square blocks and CPA
    being the rounded blocks in the last row.
    The duty of the CSA is to produce the least significant bits of the
-   product P (P0:P3), whereas the CPA is reponsible for the most
+   product P (P0:P3), whereas the CPA is responsible for the most
    significant bits (P4:P7).
 
    Due to the carry out bit on the left most block on the last row being connected to nothing, this
@@ -39,11 +39,11 @@
 
    [[file:multiplier44_img.png]]  
 
-   The 4x4 implementation of the multipier.
+   The 4x4 implementation of the multiplier.
 
    Below the CSA and CPA blocks are represented in their logic
    forms. These logical diagram representations are then represented in
-   code and the "connnections" for the multiplier are then made in the
+   code and the "connections" for the multiplier are then made in the
    C++ and SystemC, although instead of 4x4 it is for an 8x8 multiplier
    unit.
 
@@ -77,5 +77,6 @@
    [[file:working_2.png]] 
 
    Images of waves on GTKWave
+
 
 
